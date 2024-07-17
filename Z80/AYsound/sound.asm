@@ -2,6 +2,9 @@
 ; ODIN ZX Spectrum Next Z80 Assembly program
 ; example program to make a single beep (A above middle C)
 
+; inport into ODIN and assemble, this will create the sound.bin file
+; that is used in the basic program.
+
         ORG 32768
 
         CALL selAY1                 ; activate AY1 and other setup
